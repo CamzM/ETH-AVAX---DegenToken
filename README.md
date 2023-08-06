@@ -4,14 +4,16 @@ Simple overview of use/purpose.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Instructions:
+Your task is to create a ERC20 token and deploy it on the Avalanche network for Degen Gaming. The smart contract should have the following functionality:
+
+1. Minting new tokens: The platform should be able to create new tokens and distribute them to players as rewards. Only the owner can mint tokens.
+2. Transferring tokens: Players should be able to transfer their tokens to others.
+3. Redeeming tokens: Players should be able to redeem their tokens for items in the in-game store.
+4. Checking token balance: Players should be able to check their token balance at any time.
+5. Burning tokens: Anyone should be able to burn tokens, that they own, that are no longer needed.
 
 ## Getting Started
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
 
 ### Executing program
 
@@ -19,7 +21,8 @@ An in-depth paragraph about your project and overview of use.
 2. Change the directory with this command: $ cd avalanche-project
 3. Run this command to create a new package.json: $$ npm init -y
 4. Install the hardhat development environment: $ npm install --save-dev hardhat
-5. To run the hardhat, run this command: $ npx hardhat 5.1 select the create a javascript project in order to generate a hardhat.config.js
+5. To run the hardhat, run this command: $ npx hardhat 
+  5.1 select the "Create a Javascript project" in order to generate a hardhat.config.js
 6. To install the toolbox plugin of hardhat: $ npm i --save-dev @nomicfoundation/hardhat-toolbox
 7. Install the OpenZeppelin Contracts library as a dependency by executing the following command: npm install @openzeppelin/contracts
 8. Edit your hardhat.config.js
@@ -75,8 +78,7 @@ module.exports = {
 ```
 const hre = require("hardhat");
 async function main() {
-	
-  const contractName == "CONTRACT_NAME HERE" 
+
   const contract = await hre.ethers.deployContract(contractName);
   await contract.waitForDeployment();
   console.log(`Contract Deployed to address ${await contract.getAddress()}`);
