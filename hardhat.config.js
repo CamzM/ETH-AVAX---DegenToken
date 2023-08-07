@@ -29,7 +29,7 @@ module.exports = {
       gasPrice: 225000000000,
       chainId: 43113,
       accounts: [
-        "ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80" 
+        "5de4111afa1a4b94908f83103eb1f1706367c2e68ca870fc3fb9a804cdab365a" 
       ]
     },
     mainnet: {
@@ -37,11 +37,11 @@ module.exports = {
       gasPrice: 225000000000,
       chainId: 43114,
       accounts: [
-        "ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80"
+        "5de4111afa1a4b94908f83103eb1f1706367c2e68ca870fc3fb9a804cdab365a"
       ]
     }
   },
   etherscan: {
-    apiKey: CM94S29ZAIBWSCPW1K5IH6SVQGPB37K2NY,
+    apiKey: "CM94S29ZAIBWSCPW1K5IH6SVQGPB37K2NY",
   },
 }

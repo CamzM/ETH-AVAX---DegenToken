@@ -1,5 +1,5 @@
 {
-  "name": "1-avalanche-tokens",
+  "name": "myproject",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,11 +10,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
-    "hardhat": "^2.14.0"
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.17.1"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^4.8.3",
-    "dotenv": "^16.0.3"
+    "@openzeppelin/contracts": "^4.9.3"
   }
 }
